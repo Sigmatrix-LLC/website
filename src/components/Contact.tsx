@@ -14,7 +14,7 @@ const Contact = () => {
     e.preventDefault();
     // Form submission logic would go here
     console.log("Form submitted:", formData);
-    alert("Thank you for your interest! We'll be in touch soon.");
+    alert("Thank you for your interest! This is a demo version. Email functionality will be enabled soon.");
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
