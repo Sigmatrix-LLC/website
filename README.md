@@ -48,8 +48,8 @@ Sigmatrix LLC develops healthcare technology platforms that simplify complex dat
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd interex-healthcare-simplified-main
+   git clone https://github.com/Sigmatrix-LLC/website.git
+   cd website
    ```
 
 2. **Install dependencies**
