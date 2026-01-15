@@ -37,17 +37,29 @@ const Footer = () => {
             <h4 className="font-display font-bold text-white mb-4">Services</h4>
             <ul className="space-y-3">
               <li>
-                <Link to="/services" className="text-white/70 hover:text-white transition-colors">
+                <Link 
+                  to="/services" 
+                  className="text-white/70 hover:text-white transition-colors"
+                  onClick={scrollToTop}
+                >
                   InterEx Platform
                 </Link>
               </li>
               <li>
-                <Link to="/services" className="text-white/70 hover:text-white transition-colors">
+                <Link 
+                  to="/services" 
+                  className="text-white/70 hover:text-white transition-colors"
+                  onClick={scrollToTop}
+                >
                   How It Works
                 </Link>
               </li>
               <li>
-                <Link to="/services" className="text-white/70 hover:text-white transition-colors">
+                <Link 
+                  to="/services" 
+                  className="text-white/70 hover:text-white transition-colors"
+                  onClick={scrollToTop}
+                >
                   Security
                 </Link>
               </li>
@@ -59,22 +71,38 @@ const Footer = () => {
             <h4 className="font-display font-bold text-white mb-4">Company</h4>
             <ul className="space-y-3">
               <li>
-                <Link to="/about" className="text-white/70 hover:text-white transition-colors">
+                <Link 
+                  to="/about" 
+                  className="text-white/70 hover:text-white transition-colors"
+                  onClick={scrollToTop}
+                >
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/why-sigmatrix" className="text-white/70 hover:text-white transition-colors">
+                <Link 
+                  to="/why-sigmatrix" 
+                  className="text-white/70 hover:text-white transition-colors"
+                  onClick={scrollToTop}
+                >
                   Why Sigmatrix
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-white/70 hover:text-white transition-colors">
+                <Link 
+                  to="/contact" 
+                  className="text-white/70 hover:text-white transition-colors"
+                  onClick={scrollToTop}
+                >
                   Contact Us
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-white/70 hover:text-white transition-colors">
+                <Link 
+                  to="/contact" 
+                  className="text-white/70 hover:text-white transition-colors"
+                  onClick={scrollToTop}
+                >
                   Request Demo
                 </Link>
               </li>
